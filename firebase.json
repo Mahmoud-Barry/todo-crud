@@ -1,0 +1,18 @@
+
+{
+  "hosting": {
+    "public": "dist/todo-crud",
+    "site": "todo-crud",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
